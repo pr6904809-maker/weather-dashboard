@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin-top: 15px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.condition {
+  text-transform: capitalize;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.details-grid {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.error-msg {
+  color: red;
+}
